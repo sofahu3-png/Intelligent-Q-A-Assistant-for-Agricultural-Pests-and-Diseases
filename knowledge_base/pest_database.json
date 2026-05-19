@@ -1,0 +1,305 @@
+{
+  "rice": {
+    "name": "水稻",
+    "pests": [
+      {
+        "name": "稻飞虱",
+        "alias": ["褐飞虱", "白背飞虱"],
+        "classification": "半翅目飞虱科",
+        "host": "水稻",
+        "symptoms": "群集于稻丛基部吸食汁液，导致稻株变黄、倒伏，严重时整丛枯死。受害稻田先出现零星黄塘，逐渐扩大成片。",
+        "occurrence": "一年发生多代，以成虫或若虫在杂草或稻桩上越冬。夏季高温高湿有利于繁殖，台风暴雨后常暴发成灾。",
+        "transmission": "主要通过迁飞扩散，风是主要传播媒介。",
+        "agricultural_control": "1. 选用抗虫品种；2. 合理密植，科学施肥，避免偏施氮肥；3. 排水露田，降低田间湿度；4. 清除田边杂草。",
+        "chemical_control": "可用吡蚜酮、噻虫嗪、异丙威等药剂喷雾。每亩用量：吡蚜酮可湿性粉剂20-30克，兑水30-45公斤均匀喷雾。",
+        "biological_control": "保护和利用天敌如蜘蛛、青蛙、寄生蜂等；使用生物农药如苦参碱、印楝素等。",
+        "prevention": "加强田间监测，及时掌握虫情动态；合理布局作物，减少虫源基数。"
+      },
+      {
+        "name": "稻纵卷叶螟",
+        "alias": ["卷叶虫"],
+        "classification": "鳞翅目螟蛾科",
+        "host": "水稻",
+        "symptoms": "幼虫吐丝纵卷叶片成小苞，在苞内啃食叶肉，留下白色表皮。严重时叶片大量卷白，影响光合作用，导致减产。",
+        "occurrence": "一年发生多代，以幼虫或蛹在稻桩、杂草中越冬。温暖湿润气候有利于发生，夏季是主要危害期。",
+        "transmission": "成虫具有趋光性和趋绿性，可远距离迁飞。",
+        "agricultural_control": "1. 合理施肥，避免贪青晚熟；2. 及时清除田间杂草；3. 深水灌溉可淹死部分虫蛹。",
+        "chemical_control": "选用氯虫苯甲酰胺、甲维盐、毒死蜱等药剂。在幼虫3龄前喷雾防治效果最佳。",
+        "biological_control": "释放赤眼蜂寄生卵粒；使用Bt制剂；保护蜘蛛、青蛙等天敌。",
+        "prevention": "设置黑光灯诱杀成虫；加强预测预报，抓住防治关键期。"
+      },
+      {
+        "name": "水稻纹枯病",
+        "alias": ["云纹病"],
+        "classification": "真菌病害（担子菌门）",
+        "host": "水稻",
+        "symptoms": "主要危害叶鞘和叶片，初期在近水面叶鞘上出现暗绿色水渍状小斑，后扩大成云纹状病斑。严重时病斑环绕茎秆，导致倒伏。",
+        "occurrence": "高温高湿条件下易流行，田间郁闭、偏施氮肥会加重发病。",
+        "transmission": "病菌以菌核在土壤中越冬，通过水流传播。",
+        "agricultural_control": "1. 合理密植，改善通风透光；2. 科学施肥，增施磷钾肥；3. 浅水勤灌，适时晒田。",
+        "chemical_control": "选用井冈霉素、噻呋酰胺、己唑醇等药剂喷雾。重点喷洒植株中下部。",
+        "biological_control": "使用枯草芽孢杆菌、木霉菌等生物制剂。",
+        "prevention": "清除病残体；轮作换茬；选用抗病品种。"
+      },
+      {
+        "name": "水稻稻瘟病",
+        "alias": ["稻热病"],
+        "classification": "真菌病害（半知菌门）",
+        "host": "水稻",
+        "symptoms": "根据发病部位可分为苗瘟、叶瘟、节瘟、穗颈瘟等。叶瘟呈菱形或纺锤形病斑，中央灰白色，边缘褐色。穗颈瘟导致穗颈变黑，形成白穗。",
+        "occurrence": "适宜温度25-28℃，高湿、多雨、寡照条件下易流行。",
+        "transmission": "病菌以分生孢子或菌丝体在病谷、病稻草上越冬，通过气流传播。",
+        "agricultural_control": "1. 选用抗病品种；2. 种子消毒；3. 合理施肥，避免过量氮肥；4. 浅水灌溉，适时晒田。",
+        "chemical_control": "发病初期选用三环唑、异稻瘟净、咪鲜胺等药剂喷雾。",
+        "biological_control": "使用春雷霉素等抗生素类农药。",
+        "prevention": "处理病稻草，减少菌源；加强田间监测，及时防治。"
+      }
+    ]
+  },
+  "wheat": {
+    "name": "小麦",
+    "pests": [
+      {
+        "name": "小麦蚜虫",
+        "alias": ["麦蚜", "腻虫"],
+        "classification": "半翅目蚜科",
+        "host": "小麦、大麦、燕麦",
+        "symptoms": "成蚜和若蚜群集在小麦叶片、茎秆和穗部吸食汁液。叶片变黄、卷曲，穗部受害导致籽粒不饱满。",
+        "occurrence": "一年发生10-20代，以卵或孤雌蚜越冬。春季气温回升后开始繁殖危害。",
+        "transmission": "主要通过有翅蚜迁飞扩散。",
+        "agricultural_control": "1. 选用抗蚜品种；2. 合理密植，加强田间管理；3. 清除田间杂草。",
+        "chemical_control": "选用吡虫啉、啶虫脒、抗蚜威等药剂喷雾。",
+        "biological_control": "保护瓢虫、草蛉、蚜茧蜂等天敌。",
+        "prevention": "冬前防治基数；春季加强监测。"
+      },
+      {
+        "name": "小麦条锈病",
+        "alias": ["黄疸"],
+        "classification": "真菌病害（担子菌门）",
+        "host": "小麦",
+        "symptoms": "主要危害叶片，也危害叶鞘、茎秆和穗部。病斑呈黄色条形，排列成行，表面产生鲜黄色孢子堆。",
+        "occurrence": "低温高湿条件易流行，最适温度10-15℃。",
+        "transmission": "病菌以夏孢子在病株上越冬，通过气流远距离传播。",
+        "agricultural_control": "1. 选用抗病品种；2. 合理施肥，增施磷钾肥；3. 及时清除病株。",
+        "chemical_control": "发病初期选用三唑酮、戊唑醇、氟环唑等药剂喷雾。",
+        "biological_control": "利用有益微生物进行生物防治。",
+        "prevention": "加强检疫，防止病菌传入；做好预测预报。"
+      },
+      {
+        "name": "小麦赤霉病",
+        "alias": ["麦穗枯"],
+        "classification": "真菌病害（子囊菌门）",
+        "host": "小麦、大麦",
+        "symptoms": "主要危害穗部，初期在小穗上出现水渍状淡褐色病斑，后扩展至整个穗部。潮湿条件下产生粉红色霉层。",
+        "occurrence": "小麦抽穗扬花期遇连续阴雨天气易流行。",
+        "transmission": "病菌以子囊壳在病残体上越冬，通过气流传播。",
+        "agricultural_control": "1. 选用抗病品种；2. 合理密植，改善通风；3. 适时播种。",
+        "chemical_control": "在小麦扬花期选用多菌灵、甲基硫菌灵、咪鲜胺等药剂喷雾。",
+        "biological_control": "使用枯草芽孢杆菌等生物制剂。",
+        "prevention": "清除病残体；实行轮作。"
+      }
+    ]
+  },
+  "corn": {
+    "name": "玉米",
+    "pests": [
+      {
+        "name": "玉米螟",
+        "alias": ["钻心虫"],
+        "classification": "鳞翅目螟蛾科",
+        "host": "玉米、高粱、谷子",
+        "symptoms": "幼虫钻蛀玉米茎秆，导致折秆、折穗。心叶期受害形成花叶，穗期受害导致穗腐。",
+        "occurrence": "一年发生1-6代，以老熟幼虫在玉米茎秆、穗轴中越冬。",
+        "transmission": "成虫具有趋光性，可短距离飞行扩散。",
+        "agricultural_control": "1. 选用抗虫品种；2. 处理越冬寄主；3. 心叶期人工捏杀幼虫。",
+        "chemical_control": "心叶期用辛硫磷颗粒剂或毒死蜱颗粒剂灌心；穗期用氯虫苯甲酰胺等喷雾。",
+        "biological_control": "释放赤眼蜂；使用Bt制剂；保护天敌。",
+        "prevention": "设置黑光灯诱杀成虫；合理轮作。"
+      },
+      {
+        "name": "玉米大斑病",
+        "alias": ["玉米条斑病"],
+        "classification": "真菌病害（半知菌门）",
+        "host": "玉米",
+        "symptoms": "主要危害叶片，病斑呈长梭形，灰褐色或黄褐色，中央颜色较浅，边缘较深。严重时病斑融合，导致叶片枯死。",
+        "occurrence": "高温高湿条件下易流行，适宜温度20-28℃。",
+        "transmission": "病菌以菌丝体在病残体上越冬，通过气流传播。",
+        "agricultural_control": "1. 选用抗病品种；2. 清除病残体；3. 合理密植。",
+        "chemical_control": "发病初期选用代森锰锌、百菌清、三唑酮等药剂喷雾。",
+        "biological_control": "使用枯草芽孢杆菌等生物制剂。",
+        "prevention": "实行轮作；加强田间管理。"
+      },
+      {
+        "name": "玉米小斑病",
+        "alias": ["玉米斑点病"],
+        "classification": "真菌病害（半知菌门）",
+        "host": "玉米",
+        "symptoms": "主要危害叶片，病斑较小，椭圆形或近圆形，黄褐色或红褐色，边缘紫色或红色。",
+        "occurrence": "高温高湿条件易流行，最适温度25-30℃。",
+        "transmission": "病菌以菌丝体在病残体上越冬，通过气流传播。",
+        "agricultural_control": "1. 选用抗病品种；2. 清除病残体；3. 合理施肥。",
+        "chemical_control": "发病初期选用代森锰锌、百菌清、吡唑醚菌酯等药剂喷雾。",
+        "biological_control": "使用有益微生物制剂。",
+        "prevention": "实行轮作；加强田间排水。"
+      }
+    ]
+  },
+  "cotton": {
+    "name": "棉花",
+    "pests": [
+      {
+        "name": "棉铃虫",
+        "alias": ["钻心虫"],
+        "classification": "鳞翅目夜蛾科",
+        "host": "棉花、番茄、玉米、豆类",
+        "symptoms": "幼虫蛀食棉花蕾、花、铃，导致蕾铃脱落。蛀孔处有虫粪，易引起烂铃。",
+        "occurrence": "一年发生多代，以蛹在土壤中越冬。高温多雨有利于发生。",
+        "transmission": "成虫具有趋光性和趋化性，可远距离迁飞。",
+        "agricultural_control": "1. 选用抗虫棉品种；2. 冬耕灭蛹；3. 人工摘除虫铃。",
+        "chemical_control": "选用氯虫苯甲酰胺、甲维盐、茚虫威等药剂喷雾。",
+        "biological_control": "释放赤眼蜂；使用Bt制剂；保护天敌。",
+        "prevention": "设置黑光灯或性诱剂诱杀成虫。"
+      },
+      {
+        "name": "棉蚜",
+        "alias": ["蜜虫", "腻虫"],
+        "classification": "半翅目蚜科",
+        "host": "棉花、瓜类、蔬菜",
+        "symptoms": "成蚜和若蚜群集在棉花嫩叶、嫩茎上吸食汁液，导致叶片卷曲、生长缓慢。排泄蜜露引发煤污病。",
+        "occurrence": "一年发生20-30代，以卵在花椒、石榴等植物上越冬。",
+        "transmission": "通过有翅蚜迁飞扩散。",
+        "agricultural_control": "1. 清除田间杂草；2. 合理密植；3. 及时整枝打杈。",
+        "chemical_control": "选用吡虫啉、啶虫脒、噻虫嗪等药剂喷雾。",
+        "biological_control": "保护瓢虫、草蛉、蚜茧蜂等天敌。",
+        "prevention": "早春防治越冬寄主上的蚜虫。"
+      },
+      {
+        "name": "棉花黄萎病",
+        "alias": ["半边疯"],
+        "classification": "真菌病害（半知菌门）",
+        "host": "棉花",
+        "symptoms": "病株叶片从下向上逐渐变黄、萎蔫，叶脉间出现黄色斑块，严重时叶片脱落，植株枯死。",
+        "occurrence": "适宜温度25-28℃，酸性土壤、连作地块发病重。",
+        "transmission": "病菌以菌丝体在土壤中或病残体上越冬，通过根部伤口侵入。",
+        "agricultural_control": "1. 选用抗病品种；2. 实行轮作；3. 合理施肥。",
+        "chemical_control": "发病初期选用多菌灵、甲基硫菌灵等药剂灌根。",
+        "biological_control": "使用荧光假单胞杆菌等生物制剂。",
+        "prevention": "加强检疫；清洁田园。"
+      }
+    ]
+  },
+  "vegetables": {
+    "name": "蔬菜",
+    "pests": [
+      {
+        "name": "菜青虫",
+        "alias": ["菜粉蝶幼虫"],
+        "classification": "鳞翅目粉蝶科",
+        "host": "十字花科蔬菜",
+        "symptoms": "幼虫啃食叶片，形成缺刻和孔洞，严重时叶片被吃光，仅剩叶脉。",
+        "occurrence": "一年发生多代，以蛹越冬。春季开始危害。",
+        "transmission": "成虫可短距离飞行扩散。",
+        "agricultural_control": "1. 清除田间残株落叶；2. 人工捕捉幼虫和蛹；3. 覆盖防虫网。",
+        "chemical_control": "选用氯虫苯甲酰胺、甲维盐、Bt制剂等喷雾。",
+        "biological_control": "释放寄生蜂；保护鸟类和蜘蛛等天敌。",
+        "prevention": "设置黄板诱杀成虫。"
+      },
+      {
+        "name": "小菜蛾",
+        "alias": ["吊丝虫"],
+        "classification": "鳞翅目菜蛾科",
+        "host": "十字花科蔬菜",
+        "symptoms": "幼虫取食叶片，形成透明小斑点或孔洞，严重时叶片成网状。",
+        "occurrence": "一年发生多代，以蛹在残株落叶中越冬。",
+        "transmission": "成虫可远距离迁飞。",
+        "agricultural_control": "1. 清除病残体；2. 合理轮作；3. 覆盖防虫网。",
+        "chemical_control": "选用氯虫苯甲酰胺、茚虫威、多杀菌素等药剂喷雾。",
+        "biological_control": "释放寄生蜂；使用Bt制剂。",
+        "prevention": "设置性诱剂诱杀成虫。"
+      },
+      {
+        "name": "番茄晚疫病",
+        "alias": ["番茄疫病"],
+        "classification": "真菌病害（卵菌门）",
+        "host": "番茄、马铃薯",
+        "symptoms": "叶片上出现暗绿色水渍状病斑，边缘不明显，潮湿时产生白色霉层。果实上形成褐色硬实的凹陷病斑。",
+        "occurrence": "低温高湿条件易流行，适宜温度18-22℃。",
+        "transmission": "病菌以菌丝体在病残体或马铃薯块茎上越冬，通过气流和雨水传播。",
+        "agricultural_control": "1. 选用抗病品种；2. 轮作换茬；3. 加强通风透光。",
+        "chemical_control": "发病初期选用甲霜灵锰锌、霜霉威盐酸盐、嘧菌酯等药剂喷雾。",
+        "biological_control": "使用枯草芽孢杆菌等生物制剂。",
+        "prevention": "及时清除病株；避免连作。"
+      },
+      {
+        "name": "黄瓜霜霉病",
+        "alias": ["跑马干"],
+        "classification": "真菌病害（卵菌门）",
+        "host": "黄瓜、甜瓜、南瓜",
+        "symptoms": "叶片上出现淡黄色小斑点，后扩大成多角形病斑，颜色变为黄褐色。潮湿时叶背产生紫灰色霉层。",
+        "occurrence": "高温高湿条件易流行，适宜温度20-25℃。",
+        "transmission": "病菌以孢子囊在病残体上越冬，通过气流和雨水传播。",
+        "agricultural_control": "1. 选用抗病品种；2. 加强通风，降低湿度；3. 合理密植。",
+        "chemical_control": "发病初期选用甲霜灵锰锌、霜霉威盐酸盐、烯酰吗啉等药剂喷雾。",
+        "biological_control": "使用有益微生物制剂。",
+        "prevention": "避免连作；及时清除病叶。"
+      }
+    ]
+  },
+  "fruits": {
+    "name": "果树",
+    "pests": [
+      {
+        "name": "红蜘蛛",
+        "alias": ["叶螨"],
+        "classification": "蛛形纲叶螨科",
+        "host": "苹果、梨、桃、柑橘",
+        "symptoms": "成螨和若螨吸食叶片汁液，导致叶片失绿、变黄、干枯脱落。严重时影响树势和果实产量。",
+        "occurrence": "一年发生多代，以雌成螨在树皮裂缝或杂草中越冬。高温干燥有利于繁殖。",
+        "transmission": "通过爬行或风力传播。",
+        "agricultural_control": "1. 冬季刮除老皮；2. 清除果园杂草；3. 合理修剪。",
+        "chemical_control": "选用阿维菌素、哒螨灵、螺螨酯等药剂喷雾。",
+        "biological_control": "保护和释放捕食螨、草蛉等天敌。",
+        "prevention": "冬季喷石硫合剂；加强监测。"
+      },
+      {
+        "name": "苹果腐烂病",
+        "alias": ["臭皮病"],
+        "classification": "真菌病害（子囊菌门）",
+        "host": "苹果",
+        "symptoms": "主要危害枝干，病斑呈红褐色，水渍状，有酒糟味。皮层腐烂后，木质部变黑。",
+        "occurrence": "树势衰弱时易发病，冬季冻害后加重。",
+        "transmission": "病菌以菌丝体在病斑内越冬，通过风雨传播，从伤口侵入。",
+        "agricultural_control": "1. 增强树势，合理施肥；2. 避免冻伤和机械伤；3. 及时刮除病斑。",
+        "chemical_control": "刮除病斑后涂抹腐殖酸铜、甲基硫菌灵等药剂。",
+        "biological_control": "使用有益微生物制剂保护伤口。",
+        "prevention": "冬季树干涂白；加强栽培管理。"
+      },
+      {
+        "name": "柑橘黄龙病",
+        "alias": ["黄梢病"],
+        "classification": "细菌病害",
+        "host": "柑橘类植物",
+        "symptoms": "病树叶片黄化，呈黄绿相间的斑驳状。病梢短弱，果实小且畸形，着色不均。",
+        "occurrence": "通过木虱传播，高温多雨有利于病害发生。",
+        "transmission": "主要通过柑橘木虱传播，也可通过嫁接传播。",
+        "agricultural_control": "1. 严格检疫，禁止病苗传入；2. 种植抗病品种；3. 及时挖除病株。",
+        "chemical_control": "防治传病媒介木虱，选用噻虫嗪、吡虫啉等药剂。",
+        "biological_control": "保护木虱天敌。",
+        "prevention": "建立无病苗圃；加强监测。"
+      },
+      {
+        "name": "桃蚜",
+        "alias": ["桃赤蚜"],
+        "classification": "半翅目蚜科",
+        "host": "桃、李、杏、樱桃",
+        "symptoms": "成蚜和若蚜群集在嫩梢、叶片和果实上吸食汁液，导致叶片卷曲、畸形，影响新梢生长。",
+        "occurrence": "一年发生多代，以卵在桃树枝条上越冬。春季桃树发芽时开始危害。",
+        "transmission": "通过有翅蚜迁飞扩散。",
+        "agricultural_control": "1. 冬季修剪；2. 清除果园杂草；3. 合理施肥。",
+        "chemical_control": "选用吡虫啉、啶虫脒、抗蚜威等药剂喷雾。",
+        "biological_control": "保护瓢虫、草蛉等天敌。",
+        "prevention": "冬季喷石硫合剂。"
+      }
+    ]
+  }
+}
